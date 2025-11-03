@@ -9,9 +9,17 @@ def sum(a, b) -> int:
 # output to the console
 greet("world🌎")
 
-# get input from the console
-name = input("what should I call you: ")
-greet(name, greeting="😊 hi there, ")
+# # get input from the console
+# name = input("what should I call you: ")
+# greet(name, greeting="😊 hi there, ")
 
-total = sum(5, 7)
-print("the sum of 5 and 7 is: " + str(total) + " 🎉")
+# total = sum(5, 7)
+# print("the sum of 5 and 7 is: " + str(total) + " 🎉")
+
+x = 15
+if x > 10:
+    print("Big number!")
+elif x > 5:
+    print("Medium number!")
+else:
+    print("Small number!")
