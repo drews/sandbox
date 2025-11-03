@@ -1,8 +1,17 @@
 # main.py - used to demo for learn-to-code
 
+def greet(greetee, greeting = "👋 hello"):
+    print(greeting + " " + greetee + " 🌟")
+
+def sum(a, b) -> int:
+    return a + b
+
 # output to the console
-print("👋 hello world🌎")
+greet("world🌎")
 
 # get input from the console
-foo = input("what should I call you: ")
-print("👋 hello " + foo)
+name = input("what should I call you: ")
+greet(name, greeting="😊 hi there, ")
+
+total = sum(5, 7)
+print("the sum of 5 and 7 is: " + str(total) + " 🎉")
