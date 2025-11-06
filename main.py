@@ -16,10 +16,11 @@ greet("world🌎")
 # total = sum(5, 7)
 # print("the sum of 5 and 7 is: " + str(total) + " 🎉")
 
-x = 15
+x = 0
 if x > 10:
     print("Big number!")
 elif x > 5:
     print("Medium number!")
 else:
     print("Small number!")
+print("Goodbye! 👋")
